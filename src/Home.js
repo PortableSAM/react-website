@@ -1,4 +1,5 @@
 import React from 'react';
+import Clock from './Clock';
 
 const Home = () => {
 	return (
@@ -7,6 +8,7 @@ const Home = () => {
 			<p>[Using Tool]</p>
 			<p>VScode, React Bootstrap, React Router Dom, Styled Components</p>
 			<p>* Exercise production</p>
+			<Clock />
 		</div>
 	);
 };
